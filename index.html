@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <link rel="stylesheet" href="C:/Users/User-PC/OneDrive/Desktop/index.css">
+	<header style="fontsize = 30px">DENNIS KIMANI</header>
+    <body>
+        <p> September 12 2022</p>
+
+       
+        <p> A Horse Running</p>
+        <div  style ="border: solid; border-color: green;">
+            
+            <p>I am a div element please look at me</p>
+          </div>
+
+          <p style="background-color: blue;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora neque quas dolorem alias magnam modi amet aspernatur reiciendis fuga error, cupiditate temporibus veniam harum consequatur est placeat laudantium ipsum necessitatibus?</p>
+          <p style="background-color:green ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus modi aliquam ex repellendus dolorem quas saepe in? Est, temporibus illo? Mollitia et quas fugiat dolores, id vel voluptatibus cum eius, facere enim quod omnis. Maiores quae consectetur aliquam dicta obcaecati porro.</p>
+          <p style="background-color: blue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure exercitationem, voluptas aut et iste minus provident dolorem nam suscipit quas delectus ipsum! Minus nostrum optio fugiat fugit repellendus ratione maiores praesentium, illo eveniet itaque rem, reprehenderit nesciunt! Quis, beatae cumque. Ut est asperiores fugit dolorem vel quia iste.</p>
+          <p style="background-color: green ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptate aut et deleniti similique, quod eligendi reprehenderit nihil iure nisi. Voluptatum quis amet nostrum iure porro nihil, fugit reprehenderit incidunt.</p>
+          <button onclick="window.location.href='C:/Users/User-PC/OneDrive/Desktop/index.html';">
+            Click Here To access about page
+          </button>
+
+          <div link rel="stylesheet" href="C:/Users/User-PC/OneDrive/Desktop/index.css">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod natus veritatis fugit, temporibus quisquam minima, laboriosam unde laborum repudiandae ut in perspiciatis aspernatur non placeat ea nobis fuga eum ratione accusamus voluptate nam? Cum aperiam dolorem aspernatur dignissimos, incidunt maiores, quas assumenda animi corrupti beatae iusto repudiandae?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse blanditiis quo omnis animi in quisquam nesciunt asperiores ducimus, perspiciatis consequuntur commodi dolorem rerum voluptates vero dolor soluta molestias delectus molestiae.</p>
+          </div>
+
+          <!--
+            asks the input from the user 
+        //-->
+          <input id="name-input" type="text" placeholder="Enter your name" />
+            <button id="my-button">Click Me</button>
+         <!--
+            sets a button and shows the reaults at the top bar  
+        //-->
+            <script>
+                var myButton = document.querySelector('#my-button');
+                var nameInput = document.querySelector('#name-input');
+
+                myButton.addEventListener('click', function () {
+                    if (nameInput.value !== '') {
+                        alert('Hello ' + nameInput.value);
+                    }
+                });
+            </script>
+    </body>
+</html>
